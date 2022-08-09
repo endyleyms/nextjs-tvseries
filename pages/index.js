@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.scss'
+//import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">TV SERIES</a>
+          Welcome to TV SERIES
         </h1>
 
         <p className="description">
