@@ -1,26 +1,31 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
-//import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 export default function Address() {
   return (
-    <div className="container">
+    <div className={styles.home}>
       <Head>
         <title>TV SERIES</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="title">
+        <h1>
           Pleassure to meet you, name
           What its your  install address?
         </h1>
-        <form action="/Address" method="post">
+        <div className={styles.card}>
+         <form action="/Plan" method="post" className={styles.card}>
           <label for="first">Please type in your street address</label>
-          <input type="text" id="first" name="first" />
+          <input id="first" name="first" type="search"  placeholder='Search'/>
           <button type="submit">YES!</button>
         </form>
+        <Link href="/Singup">
+          <a>Step 1</a>
+        </Link>   
+        </div>
+        
 
 
       </main>

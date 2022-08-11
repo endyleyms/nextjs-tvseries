@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
-//import styles from '../styles/Home.module.css'
+import styles from  "../styles/Home.module.scss";
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
+    <div className={styles.home}>
+      <Head className={styles.__header}>
         <title>TV SERIES</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

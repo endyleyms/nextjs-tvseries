@@ -1,0 +1,32 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: black;
+
+.home {
+    padding: 200px;
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: aliceblue;
+    h1{
+        color: rgb(115, 0, 255);
+    }
+    :link{
+        text-decoration: none;
+    }
+    button{
+        width: 30%;
+        height: 150%;
+        background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        cursor: pointer;
+    }
+}
+.card{
+    display: grid;
+    width: 60%;
+    grid-gap: 10px;
+    a{
+        font-size: small;
+    }
+}
