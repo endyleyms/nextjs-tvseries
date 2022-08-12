@@ -18,9 +18,9 @@ export default function Home() {
         <p className="description">
           Are you ready to  enjoy the TV Series?
         </p>
-        <Link href="/Singup">
-          <a>LETS DO IT!!</a>
-        </Link>
+        <button href="/Singup">
+            <a>READY</a>
+        </button>
 
       </main>
 

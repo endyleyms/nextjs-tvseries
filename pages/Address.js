@@ -12,9 +12,9 @@ export default function Address() {
 
       <main>
         <h1>
-          Pleassure to meet you, name
-          What its your  install address?
+        Pleassure to meet you 
         </h1>
+        <h2>What its your  install address?</h2>
         <div className={styles.card}>
          <form action="/Plan" method="post" className={styles.card}>
           <label for="first">Please type in your street address</label>
